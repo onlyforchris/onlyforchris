@@ -9,11 +9,11 @@
 
 ### 这个月在做什么
 
-<sub>更新于 2026-08-30</sub>
+<sub>更新于 2026-09-01</sub>
 
 - 重做 [Agent Hub](https://github.com/onlyforchris/agent-hub)：Python、本地浏览器、SQLite 与 MCP，先把可运行边界做实。
 - 维护 [DSH IM](https://github.com/onlyforchris/dsh-im) 与 [DSH Timer Agent](https://github.com/onlyforchris/dsh-timer-agent)：把真实故障修进插件和 Release。
-- 恢复 [Blog](https://github.com/onlyforchris/blog)：只写真实工程问题，不写工具清单和概念拼盘。
+- 恢复 [Blog](https://github.com/onlyforchris/blog) 发布：第一批三篇已上线，只写真实工程问题，不写工具清单和概念拼盘。
 
 ### 看得见的作品
 
@@ -43,11 +43,11 @@
 
 ### 最近写什么
 
-[Blog](https://github.com/onlyforchris/blog) 正在恢复中。不把选题冒充文章；下一批会从这三篇开始：
+[Blog](https://github.com/onlyforchris/blog) 已恢复发布，只写真实工程问题，不把选题冒充文章。这一批发了三篇：
 
-1. 《为什么 200 OK 不等于事情做完了》
-2. 《一个中文任务名引发的跨平台故障》
-3. 《自动化应该在哪一步停下来让人确认》
+1. [《为什么 200 OK 不等于事情做完了》](https://github.com/onlyforchris/blog/blob/main/posts/why-200-ok-is-not-done.md)
+2. [《一个中文任务名引发的跨平台故障》](https://github.com/onlyforchris/blog/blob/main/posts/chinese-task-name-transport-failure.md)
+3. [《自动化应该在哪一步停下来让人确认》](https://github.com/onlyforchris/blog/blob/main/posts/where-to-stop-and-ask-confirmation.md)
 
 ### 几条小原则
 
