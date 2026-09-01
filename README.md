@@ -28,6 +28,16 @@
 | [WeChat Draft Publisher](https://github.com/onlyforchris/wechat-draft-publisher-skill) | 把 Markdown 安全转换为公众号草稿 | 草稿链路、最后一步人工确认 |
 | [Bid Response Production](https://github.com/onlyforchris/bid-response-production) | 生成、审查并规范化中文投标材料 | 独立 Skill、审查规则与文档 |
 
+### 用 HTML 做 Apple 风格 PPT
+
+技术内容我常做成**可放映的幻灯片**，而不是 PPT：一个 HTML 文件，能全屏放映、目录跳页、自动播放。这是一套 Apple 发布会风格的演示：
+
+[![Apple 风格演示预览](assets/apple-ppt-preview.png)](https://onlyforchris.github.io/blog/apple-demo.html)
+
+- 🎞 [在线演示](https://onlyforchris.github.io/blog/apple-demo.html) —— 整套可放映的 Apple 风格 HTML PPT
+- 🧩 [Skill：html-ppt-apple-style](https://github.com/onlyforchris/html-ppt-apple-style) —— 一键生成 Apple 发布会风格演示
+- 📖 [博客演示目录](https://onlyforchris.github.io/blog/slideshows/) · [怎么用 HTML 写幻灯片](https://onlyforchris.github.io/blog/write-html-slides/)
+
 ### 从问题到结果
 
 | 问题 | 没有停在 | 最后落到 |
