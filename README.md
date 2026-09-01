@@ -45,9 +45,9 @@
 
 [Blog](https://github.com/onlyforchris/blog) 已恢复发布，只写真实工程问题，不把选题冒充文章。这一批发了三篇：
 
-1. [《为什么 200 OK 不等于事情做完了》](https://github.com/onlyforchris/blog/blob/main/posts/why-200-ok-is-not-done.md)
-2. [《一个中文任务名引发的跨平台故障》](https://github.com/onlyforchris/blog/blob/main/posts/chinese-task-name-transport-failure.md)
-3. [《自动化应该在哪一步停下来让人确认》](https://github.com/onlyforchris/blog/blob/main/posts/where-to-stop-and-ask-confirmation.md)
+1. [《为什么 200 OK 不等于事情做完了》](https://onlyforchris.github.io/blog/why-200-ok-is-not-done/)
+2. [《一个中文任务名引发的跨平台故障》](https://onlyforchris.github.io/blog/chinese-task-name-transport-failure/)
+3. [《自动化应该在哪一步停下来让人确认》](https://onlyforchris.github.io/blog/where-to-stop-and-ask-confirmation/)
 
 ### 几条小原则
 
