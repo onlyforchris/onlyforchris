@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <clipPath id="cardClip">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e2d3d" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="nebula" cx="0.15" cy="0.85" r="0.45">
+      <stop offset="0%" stop-color="#0ea5a0" stop-opacity="0.12"/>
+      <stop offset="40%" stop-color="#134e6f" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0d1520" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="0.08" cy="0.75" r="0.3">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0d1520" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1200" height="320" fill="#0d1520"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="950" cy="100" r="200" fill="#0ea5a0" opacity="0.06"/>
+    <circle cx="200" cy="250" r="150" fill="#0ea5a0" opacity="0.04"/>
+    <rect width="1200" height="320" fill="url(#nebula)"/>
+    <rect width="1200" height="320" fill="url(#nebula2)"/>
+    <circle cx="60" cy="220" r="1.2" fill="#e2e8f0" opacity="0.7"/>
+    <circle cx="95" cy="240" r="0.8" fill="#c8dce4" opacity="0.5"/>
+    <circle cx="130" cy="210" r="1" fill="#e2e8f0" opacity="0.6"/>
+    <circle cx="170" cy="250" r="0.7" fill="#a0c4d0" opacity="0.4"/>
+    <circle cx="200" cy="225" r="1.3" fill="#e2e8f0" opacity="0.65"/>
+    <circle cx="240" cy="260" r="0.9" fill="#c8dce4" opacity="0.5"/>
+    <circle cx="280" cy="230" r="1.1" fill="#e2e8f0" opacity="0.55"/>
+    <circle cx="310" cy="270" r="0.8" fill="#a0c4d0" opacity="0.45"/>
+    <circle cx="350" cy="245" r="1" fill="#e2e8f0" opacity="0.5"/>
+    <circle cx="390" cy="280" r="0.7" fill="#c8dce4" opacity="0.4"/>
+    <circle cx="420" cy="255" r="1.2" fill="#e2e8f0" opacity="0.55"/>
+    <circle cx="460" cy="290" r="0.9" fill="#a0c4d0" opacity="0.35"/>
+    <circle cx="500" cy="265" r="0.8" fill="#e2e8f0" opacity="0.4"/>
+    <circle cx="540" cy="300" r="1" fill="#c8dce4" opacity="0.3"/>
+    <circle cx="80" cy="270" r="0.9" fill="#e2e8f0" opacity="0.5"/>
+    <circle cx="120" cy="290" r="0.7" fill="#a0c4d0" opacity="0.4"/>
+    <circle cx="160" cy="280" r="1.1" fill="#e2e8f0" opacity="0.45"/>
+    <circle cx="210" cy="300" r="0.8" fill="#c8dce4" opacity="0.35"/>
+    <circle cx="260" cy="290" r="1" fill="#e2e8f0" opacity="0.4"/>
+    <circle cx="330" cy="305" r="0.7" fill="#a0c4d0" opacity="0.3"/>
+    <circle cx="380" cy="310" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="450" cy="180" r="0.8" fill="#c8dce4" opacity="0.3"/>
+    <circle cx="520" cy="200" r="0.6" fill="#e2e8f0" opacity="0.25"/>
+    <circle cx="580" cy="170" r="0.9" fill="#a0c4d0" opacity="0.3"/>
+    <circle cx="640" cy="210" r="0.7" fill="#e2e8f0" opacity="0.25"/>
+    <circle cx="700" cy="190" r="0.8" fill="#c8dce4" opacity="0.2"/>
+    <circle cx="760" cy="230" r="0.6" fill="#e2e8f0" opacity="0.2"/>
+    <circle cx="820" cy="260" r="0.7" fill="#a0c4d0" opacity="0.2"/>
+    <g stroke="#2dd4bf" stroke-width="0.5" opacity="0.12">
+      <line x1="60" y1="220" x2="130" y2="210"/>
+      <line x1="130" y1="210" x2="200" y2="225"/>
+      <line x1="200" y1="225" x2="280" y2="230"/>
+      <line x1="95" y1="240" x2="170" y2="250"/>
+      <line x1="170" y1="250" x2="240" y2="260"/>
+      <line x1="240" y1="260" x2="310" y2="270"/>
+      <line x1="80" y1="270" x2="160" y2="280"/>
+      <line x1="160" y1="280" x2="260" y2="290"/>
+      <line x1="310" y1="270" x2="350" y2="245"/>
+      <line x1="350" y1="245" x2="420" y2="255"/>
+    </g>
+    <circle cx="130" cy="210" r="2" fill="#5eead4" opacity="0.8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="230" r="1.8" fill="#2dd4bf" opacity="0.7" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="300" r="1.5" fill="#5eead4" opacity="0.6" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="255" r="1.8" fill="#2dd4bf" opacity="0.65" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.65;0.2;0.65" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="305" r="1.5" fill="#5eead4" opacity="0.5" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="200" y1="180" x2="260" y2="210" stroke="#5eead4" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.6;0;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="100;100;200;300;300" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="150;150;180;210;210" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="140;140;260;360;360" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="165;165;210;240;240" dur="7s" repeatCount="indefinite"/>
+    </line>
+    <g transform="translate(1020, 100)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+        <polygon points="0,-70 60.6,-35 60.6,35 0,70 -60.6,35 -60.6,-35" fill="none" stroke="#0ea5a0" stroke-width="1.5" opacity="0.3"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+        <polygon points="0,-45 39,-22.5 39,22.5 0,45 -39,22.5 -39,-22.5" fill="none" stroke="#2dd4bf" stroke-width="1" opacity="0.2"/>
+      </g>
+    </g>
+    <circle cx="1020" cy="100" r="8" fill="#2dd4bf" opacity="0.6">
+      <animate attributeName="r" values="8;14;8" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="100" r="3" fill="#5eead4" opacity="0.9"/>
+    <circle cx="180" cy="80" r="4" fill="#0ea5a0" opacity="0.4">
+      <animate attributeName="r" values="4;10;4" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="80" r="2" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="300" cy="60" r="1.5" fill="#2dd4bf" opacity="0.5">
+      <animate attributeName="cy" values="60;50;60" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="250" r="1" fill="#0ea5a0" opacity="0.4">
+      <animate attributeName="cy" values="250;240;250" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="50" r="1.5" fill="#5eead4" opacity="0.3">
+      <animate attributeName="cy" values="50;42;50" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#2dd4bf" stroke-width="1" opacity="0.15">
+      <animate attributeName="y1" values="0;320;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;320;0" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="880" y1="180" x2="1100" y2="180" stroke="#0ea5a0" stroke-width="1" opacity="0.2"/>
+    <line x1="920" y1="200" x2="1060" y2="200" stroke="#0ea5a0" stroke-width="1" opacity="0.15"/>
+    <line x1="960" y1="220" x2="1040" y2="220" stroke="#0ea5a0" stroke-width="1" opacity="0.1"/>
+    <g opacity="0.25" stroke="#2dd4bf" stroke-width="1">
+      <line x1="145" y1="200" x2="155" y2="200"/>
+      <line x1="150" y1="195" x2="150" y2="205"/>
+    </g>
+    <g opacity="0.2" stroke="#0ea5a0" stroke-width="1">
+      <line x1="1100" y1="250" x2="1110" y2="250"/>
+      <line x1="1105" y1="245" x2="1105" y2="255"/>
+    </g>
+    <text x="80" y="140" fill="#e2e8f0" font-family="'SF Mono', 'Fira Code', 'Consolas', 'Microsoft YaHei', monospace" font-size="72" font-weight="700" letter-spacing="6">CHRIS</text>
+    <text x="84" y="178" fill="#7a9ba8" font-family="'SF Mono', 'Fira Code', 'Consolas', 'Microsoft YaHei', monospace" font-size="18" letter-spacing="1">做点有用的，留点好玩的。</text>
+    <rect x="84" y="196" width="48" height="2" rx="1" fill="#2dd4bf" filter="url(#glow)" opacity="0.9"/>
+    <text x="84" y="230" fill="#3d5a6e" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" letter-spacing="3">ENGINEER / BUILDER</text>
+  </g>
+</svg>
