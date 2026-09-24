@@ -57,7 +57,7 @@ Windows 桌面财务工具，拍票、查重、归档<br />
 
 <br />
 
-** [公众号发布](https://github.com/onlyforchris/wechat-draft-publisher-skill)**<br />
+**📮 [公众号发布](https://github.com/onlyforchris/wechat-draft-publisher-skill)**<br />
 Markdown 转公众号草稿发布<br />
 <sup>最后一步人工确认</sup>
 
